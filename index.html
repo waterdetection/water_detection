@@ -2,8 +2,7 @@
 <html>
 
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-55V1E709SK"></script>
+  
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -14,14 +13,13 @@
 
   <meta charset="utf-8">
   <meta name="description"
-    content="AI based Fusion of Satellite data for Biodiversity Change Characterization">
+    content="Inland Excess Water (IEW) Monitoring Using Sentinel-1/2: A SplitClass Segmentation and Temporal Gap-Filling Approach">
   <meta name="keywords" content="AI, Satellite, Biodiversity, ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AI based Fusion of Satellite data for Biodiversity Change Characterization
+  <title> Inland Excess Water (IEW) Monitoring Using Sentinel-1/2: A SplitClass Segmentation and Temporal Gap-Filling Approach
   </title>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+ 
   <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -269,43 +267,6 @@
 
 <body>
 
-  <!-- <nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-  <div class="navbar-menu">
-    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="">
-      <span class="icon">
-          <i class="fas fa-home"></i>
-      </span>
-      </a>
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More Research
-        </a>
-        <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://hypernerf.github.io">
-            HyperNeRF
-          </a>
-          <a class="navbar-item" href="https://nerfies.github.io">
-            Nerfies
-          </a>
-          <a class="navbar-item" href="https://latentfusion.github.io">
-            LatentFusion
-          </a>
-          <a class="navbar-item" href="https://photoshape.github.io">
-            PhotoShape
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</nav> -->
 
 
   <section class="hero">
@@ -314,13 +275,12 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <h1 class="title is-1 publication-title"><span
-                style="color: #4CAF50 ;font-weight: bolder;"></span> Soft Segmentation and Time-Series Analysis for Accurate Waterlogging
-                Segmentation Using Sentinel Data </h1>
+                style="color: #4CAF50 ;font-weight: bolder;"></span> Inland Excess Water (IEW) Monitoring Using Sentinel-1/2: A SplitClass Segmentation and Temporal Gap-Filling Approach </h1>
             <div class="is-size-5 publication-authors">
               <span class="author-block">  
                 <a href="To_be_updated">First author</a><sup>1</sup><sup>*</sup>,</span>
               <span class="author-block">
-                <a href="To_be_updated">Other authors/a><sup>1</sup>,</span>
+                <a href="To_be_updated">Other authors</a><sup>1</sup>,</span>
               <span class="author-block">
                
                 
@@ -481,13 +441,9 @@
           <div class="content has-text-justified">
 
             <p>
-              Accurately mapping Inland Excess Water (IEW), including waterlogging and water retention zones, is critical for understanding climate change impacts.
-              Existing remote sensing methods often struggle in wet-dry transitional zones and face challenges from cloud-related data gaps. 
-              To address these limitations, we propose a novel approach that combines soft segmentation with a time-series framework.
-              Soft segmentation  assigns the top-2 class probabilities to each pixel in transition regions, where boundaries between categories are often ambiguous and difficult to classify.
-              Meanwhile, the time-series framework fuses temporal optical (Sentinel-2) and radar (Sentinel-1) data, ensuring improved temporal consistency and mitigating cloud occlusions.
-              To support this research, we present IEW-Seg, a new dataset comprising fine-grained waterlogging classes, multi-source geospatial inputs (including HydroDEM and soil properties), and field-validated ground truth.
-              Quantitative evaluation demonstrates that our method significantly enhances IEW detection accuracy. 
+             Accurate mapping of Inland Excess Water (IEW), encompassing waterlogging and water retention areas, is essential for advancing sustainable land management and large-scale water conservation efforts.
+Existing remote sensing methods often focus on Binary water-nonwater segmentations,  struggle in wet-dry transitional zones, and face challenges from cloud-related data gaps. To address these limitations, we propose a novel approach that combines SplitClass segmentation with a temporal Gap-Filling framework. SplitClass segmentation is an adaptive approach that assigns either a single class or a pair of top-2 class labels to each pixel, depending on prediction confidence. Meanwhile, the framework fuses temporal optical (Sentinel-2) and radar (Sentinel-1) data, ensuring improved temporal consistency and mitigating cloud occlusions. To support this research, we present IEW-Seg, a new dataset comprising fine-grained waterlogging classes, multi-source satellite inputs,  
+and field-validated ground truth. Quantitative evaluation demonstrates that our method significantly enhances IEW detection accuracy. 
                 </p>
             
 
@@ -713,11 +669,7 @@
     <span>2024 December </span>
   </div>
 
-  <div class="custom-button-container">
-    <button class="custom-accumulate-button" id="custom-accumulateButton">Show Accumulated Results</button>
-  </div>
 
-  <div id="custom-output">Selected Pixel: (X, Y)</div>
 
   <div class="custom-chart-container">
     <canvas id="custom-myChart" class="custom-canvas"></canvas>
